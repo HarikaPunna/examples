@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<hibernate-mapping>
+<class name="com.dao.Employee" table="Employee">
+	<id column="ID" name="id" type="int"/>
+	<property name="name" type="string"/>
+</class>
+</hibernate-mapping>
